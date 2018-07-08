@@ -1,0 +1,22 @@
+section
+{
+  background-color: #2b2b2b;
+  color:#fff;
+}
+
+.img
+{
+  width:200px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.img img
+{
+  width: 100%;
+}
+
+.img img:hover
+{
+  transform: scale(2,2);
+}

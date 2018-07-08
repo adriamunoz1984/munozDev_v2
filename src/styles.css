@@ -1,1 +1,62 @@
-/* You can add global styles to this file, and also import other style files */
+.container
+{
+  max-width:800px;
+}
+
+.sample
+{
+  width:100%;
+  height:300px;
+  background:white;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+  margin:0;
+  padding:0;
+}
+
+section
+{
+  padding:2vw;
+}
+
+.white-title
+{
+  text-align: center;
+  margin: 0;
+  padding:0;
+}
+.dark-line
+{
+  width: 100%;
+  height:0.125vw;
+  background:#ffffff;
+  margin-bottom:25px;
+}
+
+.line
+{
+  width: 100%;
+  height:0.125vw;
+  background:black;
+  margin:10px 0;
+}
+
+.paddingTop
+{
+  padding-top:40px;
+  padding-bottom:40px;
+}
+
+.paddingBottom
+{
+  padding-top:15px;
+  padding-bottom:40px;
+}
+
+.paddingTopBottom
+{
+  padding-top:40px;
+  padding-bottom:40px;
+}

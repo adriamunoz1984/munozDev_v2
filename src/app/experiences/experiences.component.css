@@ -1,0 +1,94 @@
+
+
+.row div
+{
+  outline:2px solid red;
+  background:white;
+}
+
+.experience
+{
+  background:#2b2b2b;
+}
+
+.btn-link
+{
+  text-decoration: none;
+}
+
+.btn-link h4,
+.btn-link h5
+{
+  display: inline-block;
+  color: #2b2b2b;
+}
+.btn-link
+{
+  width:100%;
+  margin:0;
+}
+.btn-link h5
+{
+  float:right;
+}
+
+.btn-link h4
+{
+  float:left;
+}
+
+.experience .white-title
+{
+  color: #ffffff;
+  text-align: center;
+}
+
+hr
+{
+  background: #ffffff;
+}
+
+.paddingTop
+{
+  padding-top:40px;
+  padding-bottom:40px;
+}
+
+.paddingBottom
+{
+  padding-top:15px;
+  padding-bottom:40px;
+}
+
+.paddingTopBottom
+{
+  padding-top:40px;
+  padding-bottom:40px;
+}
+.card
+{
+  border-color: #2b2b2b !important;
+
+}
+
+.card-header
+{
+    background: #fff !important;
+}
+
+/* .card-header:hover
+{
+    background-image: url("../../assets/img/rubyicon.png") !important;
+    background-position:center !important;
+    background-repeat: no-repeat !important;
+    background-size:auto !important;
+} */
+
+@media only screen and (max-width:500px)
+{
+  .btn-link h4,
+  .btn-link h5
+  {
+    font-size: 4vw;
+  }
+}
