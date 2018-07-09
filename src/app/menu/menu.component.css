@@ -21,6 +21,14 @@
   top:2.5vw;
 }
 
+.name
+{
+  color: #fff;
+  width:325px;
+  margin: 0 auto;
+  position: relative;
+  font-size:50px;
+}
 .ham div
 {
   width:100%;
@@ -36,6 +44,49 @@
   min-width:110px;
   position: relative;
   margin: 0 auto;
+}
+
+.contact-list
+{
+  color: #fff;
+  margin: 0 auto;
+  /* outline:2px solid red; */
+  width:450px;
+
+}
+
+/* .icon
+{
+  width: 25px;
+  height:25px;
+} */
+
+.icon
+{
+  width: 40px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.email
+{
+  /* width: 30px; */
+}
+
+/* .contact-list
+{
+  display:none;
+} */
+
+.contact-list li
+{
+  list-style: none;
+}
+.contact-list li h3
+{
+  font-size: 20px;
+  line-height: 50px;
+  display: inline-block;
 }
 
 @media only screen and (max-width:500px)

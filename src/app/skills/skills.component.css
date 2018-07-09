@@ -27,10 +27,20 @@
 }
 h3,h2
 {
-  text-align: center;
   padding:0;
   margin:0;
   font-size: 20px;
+}
+
+h2
+{
+  text-align: center;
+}
+
+.legend .box2
+{
+  font-size: 11px;
+  font-weight: bold;
 }
 
 .col-md-1,
@@ -39,11 +49,19 @@ h3,h2
 {
   /* outline:2px solid red;*/
 }
+.container .row
+{
+  margin-bottom:50px;
+}
+section
+{
+  padding:25px;
+}
 
-.col-md-2 h3
+.row .col-md-3 h3
 {
   text-align: left;
-  line-height: 50px;
+  line-height: 100px;
 }
 
 .ror h3
@@ -58,8 +76,6 @@ h3,h2
   border: none;
 }
 
-
-
 .image
 {
   width:50px;
@@ -68,6 +84,8 @@ h3,h2
   background-repeat: no-repeat;
   background-size: cover;
   margin:0 auto;
+  position:relative;
+  top:20px;
 }
 .imgHtml
 {
@@ -107,10 +125,12 @@ h3,h2
 
 @media only screen and (max-width:767px)
 {
-  .col-md-2 h3
+  .row .col-md-3 h3
   {
     text-align: center;
+    line-height: 75px;
   }
+
   .col-md-9
   {
     margin-bottom:75px;

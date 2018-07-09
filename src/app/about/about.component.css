@@ -1,0 +1,18 @@
+.img
+{
+  background-image: url("../../assets/img/Us.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  width: 200px;
+  height:200px;
+  margin:0 auto;
+  overflow: hidden;
+  transition: width 0.5s;
+}
+
+.img img
+{
+  width:150px;
+  text-align: center;
+}

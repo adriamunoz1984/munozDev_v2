@@ -1,7 +1,94 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <app-menu></app-menu>
-<app-about></app-about>
-<app-skills></app-skills>
-<app-experiences></app-experiences>
-<app-education></app-education>
-<app-demos></app-demos>
+<section class="experience">
+  <div class="container">
+    <h2 class="white-title">Welcome, Please select a Menu Item</h2>
+    <div id="accordion2">
+      <div class="card">
+        <div class="card-header" id="heading-One">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapse-One" aria-expanded="true" aria-controls="collapse-One">
+              <h4>Skills</h4><h5></h5>
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapse-One" class="collapse show" aria-labelledby="heading-One" data-parent="#accordion2">
+          <div class="card-body">
+          <app-skills></app-skills>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="heading-Two">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-Two" aria-expanded="false" aria-controls="collapse-Two">
+              <h4>Experience</h4><h5></h5>
+            </button>
+          </h5>
+        </div>
+        <div id="collapse-Two" class="collapse" aria-labelledby="heading-Two" data-parent="#accordion2">
+          <div class="card-body">
+          <app-experiences></app-experiences>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="heading-Three">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-Three" aria-expanded="false" aria-controls="collapse-Three">
+              <h4>Education</h4><h5></h5>
+            </button>
+          </h5>
+        </div>
+        <div id="collapse-Three" class="collapse" aria-labelledby="heading-Three" data-parent="#accordion2">
+          <div class="card-body">
+            <app-education></app-education>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="heading-Four">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-Four" aria-expanded="false" aria-controls="collapse-Four">
+              <h4>Work Examples</h4><h5></h5>
+            </button>
+          </h5>
+        </div>
+        <div id="collapse-Four" class="collapse" aria-labelledby="heading-Four" data-parent="#accordion2">
+          <div class="card-body">
+            <app-demos></app-demos>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="heading-Five">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-Five" aria-expanded="false" aria-controls="collapse-Five">
+              <h4>About</h4><h5></h5>
+            </button>
+          </h5>
+        </div>
+        <div id="collapse-Five" class="collapse" aria-labelledby="heading-Five" data-parent="#accordion2">
+          <div class="card-body">
+            <app-about></app-about>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="heading-Six">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-Six" aria-expanded="false" aria-controls="collapse-Six">
+              <h4>Accomplishments</h4><h5></h5>
+            </button>
+          </h5>
+        </div>
+        <div id="collapse-Six" class="collapse" aria-labelledby="heading-Six" data-parent="#accordion2">
+          <div class="card-body">
+            <app-accomplishment></app-accomplishment>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
