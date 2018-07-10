@@ -28,3 +28,14 @@
 {
   display: inline-block;
 }
+
+a
+{
+  text-decoration: none;
+}
+
+@media screen only and (max-width: 600px)
+{
+  section
+  {padding:15px !important;}
+}
